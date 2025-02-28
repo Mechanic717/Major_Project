@@ -1,4 +1,4 @@
-/* Global Reset */
+Global Reset
 * {
   margin: 0;
   padding: 0;
@@ -40,23 +40,23 @@ body {
 }
 
 .upload-btn {
-  background: #6200ea;
+  background: #ff9800;
   color: white;
   border: none;
 }
 
 .upload-btn:hover {
-  background: #4b00c2;
+  background: #ff9800;
 }
 
 .convert-btn {
-  background: #ff5722;
+  background: #ff9800;
   color: white;
   border: none;
 }
 
 .convert-btn:hover {
-  background: #e64a19;
+  background: #ff9800;
 }
 
 /* Text Section */
@@ -142,8 +142,8 @@ body {
 /* Upload button */
 .upload-btn {
   position: relative;
-  background: #6200ea;
-  color: white;
+  background: #df9306;
+  color: rgb(0, 0, 0);
   border: none;
   border-radius: 5px;
   font-size: 16px;

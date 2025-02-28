@@ -1,0 +1,167 @@
+/* Dark Mode Container */
+.prescription-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 165, 0, 0.1);
+  color: #fff;
+  border: 1px solid #ffa500;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background: #222;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ffa500;
+}
+
+.navbar button {
+  background: transparent;
+  color: #c4b9a5;
+  border: 1px solid #ffa500;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+.navbar button:hover {
+  background: #d1bd99;
+  color: black;
+}
+
+.navbar button:disabled {
+  background: rgba(255, 165, 0, 0.3);
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 165, 0, 0.3);
+  cursor: not-allowed;
+}
+
+/* Title */
+.prescription-title {
+  text-align: center;
+  color: #ffa500;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Summary Boxes */
+.summary-box {
+  background: #252525;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #ffa500;
+  box-shadow: 2px 2px 10px rgba(255, 165, 0, 0.2);
+}
+
+.summary-box h2 {
+  font-size: 18px;
+  color: #ffa500;
+  margin-bottom: 10px;
+}
+
+.summary-box p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #ddd;
+}
+
+/* Table */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #ffa500;
+  padding: 8px;
+  text-align: center;
+}
+
+.data-table th {
+  background-color: #ffa500;
+  color: black;
+  font-weight: bold;
+}
+
+.data-table td {
+  background-color: #222;
+  color: white;
+}
+
+.data-table tr:hover {
+  background: #333;
+}
+
+/* Download Button */
+.download-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: #ffa500;
+  color: black;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.download-btn:hover {
+  background: #cc8400;
+}
+
+/* Progress Bar */
+.progress-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  border: 1px solid #c1b49c;
+  box-shadow: 0px 4px 8px rgba(255, 165, 0, 0.2);
+}
+
+/* Progress Steps */
+.progress-step {
+  padding: 8px 16px;
+  border: 1px solid #caba9e;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffa500;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.progress-step.active {
+  background: #b8b2a7;
+  color: black;
+}
+
+.progress-step.disabled {
+  background: rgba(255, 165, 0, 0.3);
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 165, 0, 0.3);
+  cursor: not-allowed;
+}
+
+/* Arrows */
+.progress-arrow {
+  color: #aaa;
+  font-size: 18px;
+}

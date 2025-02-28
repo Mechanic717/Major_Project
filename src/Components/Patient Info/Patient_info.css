@@ -1,0 +1,71 @@
+.patient-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #1a1a1a, #292929);
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.form {
+  background: #222;
+  padding: 25px;
+  border-radius: 12px;
+  width: 50%;
+  box-shadow: 3px 3px 12px rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 1.2rem;
+  text-align: left;
+  color: #ddd;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #333;
+  color: white;
+}
+
+input:disabled {
+  background: #555;
+  color: #bbb;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+}
+
+.save-btn {
+  background: #ff9800;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.save-btn:hover {
+  background: #e68900;
+  transform: scale(1.05);
+}
